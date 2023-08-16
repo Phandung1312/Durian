@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google()
         mavenCentral()
@@ -15,4 +16,11 @@ dependencyResolutionManagement {
 
 rootProject.name = "Durian"
 include(":app")
- 
+include(":core-network")
+include(":core-common")
+include(":core-designSystem")
+include(":core-localstorage")
+include(":core-model")
+include(":core-navigation")
+include(":core-theme")
+include(":core-data")
